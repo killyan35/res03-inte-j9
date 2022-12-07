@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 14px;
+}
+html body {
+  background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code.jpeg");
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+html body header {
+  font-family: "Montserrat", sans-serif;
+}
+html body header nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+html body header nav figure {
+  padding-left: 3rem;
+  grid-column: 1/2;
+}
+html body header nav figure img {
+  height: 5rem;
+}
+html body header nav ul {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 1.4rem;
+  grid-column: 2/3;
+}
+html body header nav ul li {
+  padding-top: 2rem;
+  padding-right: 9rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+html body main {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+html body main h1 {
+  font-size: 8rem;
+  color: #ffffff;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-top: 6rem;
+}
+html body main h2 {
+  font-size: 6.5rem;
+  color: #8ae7c3;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  padding-bottom: 6rem;
+}
+html body footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  height: 4rem;
+  font-size: 1.1rem;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+html body footer h3 {
+  grid-row: 2/3;
+}
+
+/*# sourceMappingURL=style.css.map */
