@@ -52,83 +52,170 @@ table {
   border-spacing: 0;
 }
 
-html {
-  font-size: 14px;
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  html body {
+    background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code.jpeg");
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  html body header {
+    font-family: "Montserrat", sans-serif;
+  }
+  html body header nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  }
+  html body header nav figure {
+    padding-left: 3rem;
+    grid-column: 1/2;
+  }
+  html body header nav figure img {
+    height: 5rem;
+  }
+  html body header nav ul {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 1.4rem;
+    grid-column: 2/3;
+  }
+  html body header nav ul li {
+    padding-top: 2rem;
+    padding-right: 9rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  html body main {
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  html body main h1 {
+    font-size: 8rem;
+    color: #ffffff;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-top: 6rem;
+  }
+  html body main h2 {
+    font-size: 6.5rem;
+    color: #8ae7c3;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    padding-bottom: 6rem;
+  }
+  html body footer {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 4rem;
+    font-size: 1.1rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  html body footer h3 {
+    grid-row: 2/3;
+  }
 }
-html body {
-  background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code.jpeg");
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-html body header {
-  font-family: "Montserrat", sans-serif;
-}
-html body header nav {
-  background-color: rgba(0, 0, 0, 0.3);
-  height: 10vh;
-  display: grid;
-  grid-template-columns: 0.5fr 1fr;
-}
-html body header nav figure {
-  padding-left: 3rem;
-  grid-column: 1/2;
-}
-html body header nav figure img {
-  height: 5rem;
-}
-html body header nav ul {
-  list-style: none;
-  display: inline-flex;
-  padding-left: 1.4rem;
-  grid-column: 2/3;
-}
-html body header nav ul li {
-  padding-top: 2rem;
-  padding-right: 9rem;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-html body main {
-  font-family: "Roboto Condensed", sans-serif;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-}
-html body main h1 {
-  font-size: 8rem;
-  color: #ffffff;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  padding-top: 6rem;
-}
-html body main h2 {
-  font-size: 6.5rem;
-  color: #8ae7c3;
-  grid-column: 2/4;
-  grid-row: 3/4;
-  padding-bottom: 6rem;
-}
-html body footer {
-  font-family: "Montserrat", sans-serif;
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-  height: 4rem;
-  font-size: 1.1rem;
-  text-align: center;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-html body footer h3 {
-  grid-row: 2/3;
+@media (max-width: 767.98px) {
+  html {
+    font-size: 14px;
+  }
+  html body {
+    background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code.jpeg");
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  html body header {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+  }
+  html body header nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  html body header nav figure {
+    padding-left: 10rem;
+    grid-row: 1/2;
+  }
+  html body header nav figure img {
+    height: 5rem;
+  }
+  html body header nav ul {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 5rem;
+    grid-row: 2/3;
+  }
+  html body header nav ul li {
+    padding-top: 2rem;
+    padding-right: 9rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  html body main {
+    font-family: "Roboto Condensed", sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  html body main h1 {
+    font-size: 6rem;
+    color: #ffffff;
+    grid-row: 2/3;
+    padding-top: 6rem;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  html body main h2 {
+    font-size: 4.5rem;
+    color: #8ae7c3;
+    grid-row: 3/4;
+    padding-bottom: 6rem;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  html body footer {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 4rem;
+    font-size: 1.1rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+  }
+  html body footer h3 {
+    grid-row: 2/3;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
